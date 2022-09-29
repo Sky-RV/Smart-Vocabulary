@@ -8,4 +8,9 @@ class Pallet {
   static Color Pink = Color(0xFFFF47DA);
   static Color Purple = Color(0xFF1B075E);
 
+  static Color DarkBlue = Color(0xFF276678);
+  static Color DarkNeonBlue = Color(0xFF3490DE);
+  static Color NeonPurple = Color(0xFF6639A6); // log in button
+  static Color DarkNeonPurple = Color(0xFF521262);
+
 }
