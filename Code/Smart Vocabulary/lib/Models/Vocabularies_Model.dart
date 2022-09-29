@@ -6,6 +6,7 @@ class Vocabularies_Model{
   String? Hint;
   String? addTime;
   String? addDate;
+  int? Level;
   String? languageCode;
 
   Vocabularies_Model({
@@ -15,5 +16,6 @@ class Vocabularies_Model{
       this.Hint,
       this.addTime,
       this.addDate,
+      this.Level,
       this.languageCode});
 }
