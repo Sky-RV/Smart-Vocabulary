@@ -1,6 +1,6 @@
-class Vocabularies{
+class Vocabularies_Model{
 
-  String? ID;
+  int? ID;
   String? Original;
   String? Translate;
   String? Hint;
@@ -8,7 +8,7 @@ class Vocabularies{
   String? addDate;
   String? languageCode;
 
-  Vocabularies({
+  Vocabularies_Model({
       this.ID,
       this.Original,
       this.Translate,

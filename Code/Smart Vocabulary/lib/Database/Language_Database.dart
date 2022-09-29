@@ -46,6 +46,14 @@ class Language_DbProvider {
     return res;
   }
 
+  Future<int> Clear_Language() async{
+    final db = await database;
+    var res = db.rawDelete(
+        "DELETE FROM Language_Table"
+    );
+    return res;
+  }
+
   Future<List<Languages_Model>> List_Language() async{
     final db = await database;
     var res = await db.rawQuery("SELECT * FROM Language_Table");
