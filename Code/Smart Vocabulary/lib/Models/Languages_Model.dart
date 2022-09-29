@@ -1,10 +1,10 @@
-class Languages {
+class Languages_Model {
 
-  String? ID;
+  int? ID;
   String? lanFrom;
   String? lanTo;
 
-  Languages({
+  Languages_Model({
     this.ID,
     this.lanFrom,
     this.lanTo});
