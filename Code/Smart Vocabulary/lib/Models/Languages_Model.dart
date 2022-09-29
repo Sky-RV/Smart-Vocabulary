@@ -4,5 +4,8 @@ class Languages {
   String? lanFrom;
   String? lanTo;
 
-  Languages({this.ID, this.lanFrom, this.lanTo});
+  Languages({
+    this.ID,
+    this.lanFrom,
+    this.lanTo});
 }
